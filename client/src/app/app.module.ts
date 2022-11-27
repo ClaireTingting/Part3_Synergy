@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BookStoreModule } from './book-store/book-store.module';
 import { PagesModule } from './pages/pages.module';
 import { JwtModule, JwtHelperService, JwtInterceptor } from '@auth0/angular-jwt';
+import { StoreFirstGuard } from './guards/storeFirst.guard';
 
 export function jwtTokenGetter(): string
 {

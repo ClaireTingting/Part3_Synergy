@@ -150,6 +150,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BookStore"
+    }
+  },
+  "defaultProject": "BookStore",
+  "cli": {
+    "analytics": "8db60bc9-04cf-4099-b132-611035d5d838"
+  }
 }
