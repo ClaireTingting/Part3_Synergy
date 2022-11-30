@@ -1,1 +1,140 @@
-<app-base-page></app-base-page>
+<!-- <app-base-page></app-base-page> -->
+<div id="allPage" style="width: 980px; margin-left: auto; margin-right: auto; padding: 8px;">
+    <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: darkolivegreen;
+    text-align: center;">Course / Instructor Evaluation</h2>
+<form action="mailto:tguo4@my.centennailcollege.ca" method="post">
+    <h4>Please read each statement carefully and consider each one individually. Give only one answer for each question.</h4>
+    <p>
+    <label for="txtFName">First Name:</label>
+    <input id="txtFName" name="txtFName" size="25" type="text" required="required" tabindex="1">
+    </p>
+    <p>
+    <label for="txtLName">Last Name:</label>
+    <input id="txtLName" name="txtLName" size="25" type="text" required="required" tabindex="3">
+    </p>
+    <p>
+    <label for="txtGender">Gender:</label>
+    <input id="txtGender" name="txtGender" size="25" type="text" required="required" tabindex="5">
+    </p>
+    <p>
+    <label for="txtAge">Age:</label>
+    <input id="txtAge" name="txtAge" size="25" type="text" required="required" tabindex="7">
+    </p>
+    <p>
+    <label for="txtCName">Course Name/Code:</label>
+    <input id="txtCName" name="txtCName" size="25" type="text" required="required" tabindex="9">
+    <p>
+        <label for="optSm">Semester:</label>
+        <input id="optSm" name="optSemester" value="F" type="radio" tabindex="11">Fall
+        <input name="optSemester" value="W" type="radio" tabindex="13">Winter
+        <input name="optSemester" value="S" type="radio" tabindex="15">Spring/Summer
+        <br>
+        Year <input id="txtSm" name="txtSemester" size="4" type="text" tabindex="17">
+    </p>
+    <label for="txtIName">Instructor Name:</label>
+    <input id="txtIName" name="txtIName" size="25" type="text" required="required" tabindex="19">
+    <p></p>
+    <fieldset>
+        <legend>INSTRUCTOR</legend>
+        <br>How would you rate the instructor's:
+        <p>
+            <label for="optKnowledge">1. knowledge of subject?</label>
+            <input id="optKnowledge" name="optKnowledge" value="E" type="radio" tabindex="21">Excellent
+            <input name="optKnowledge" value="G" type="radio" tabindex="23">Good
+            <input name="optKnowledge" value="F" type="radio" tabindex="25">Fair
+            <input name="optKnowledge" value="N" type="radio" tabindex="27">Not satisfactory
+        </p>
+        <P>
+            <label for="optHelpfulness">2. helpfulness?</label>
+            <input id="optHelpfulness" name="optHelpfulness" value="E" type="radio" tabindex="29">Excellent
+            <input name="optHelpfulness" value="G" type="radio" tabindex="31">Good
+            <input name="optHelpfulness" value="F" type="radio" tabindex="33">Fair
+            <input name="optHelpfulness" value="N" type="radio" tabindex="35">Not satisfactory
+        </P>
+        <P>
+            <label for="optCourtesy">3. courtesy and respect for all students?</label>
+            <input id="optCourtesy" name="optCourtesy" value="E" type="radio" tabindex="37">Excellent
+            <input name="optCourtesy" value="G" type="radio" tabindex="39">Good
+            <input name="optCourtesy" value="F" type="radio" tabindex="41">Fair
+            <input name="optCourtesy" value="N" type="radio" tabindex="43">Not satisfactory
+        </P>
+        <P>
+            <label for="optCommunication">4. communication skills?</label>
+            <input id="optCommunication" name="optCommunication" value="E" type="radio" tabindex="45">Excellent
+            <input name="optCommunication" value="G" type="radio" tabindex="47">Good
+            <input name="optCommunication" value="F" type="radio" tabindex="49">Fair
+            <input name="optCommunication" value="N" type="radio" tabindex="51">Not satisfactory
+        </P>
+        <P>
+            <label for="optPerformance">5. overall performance?</label>
+            <input id="optPerformance" name="optPerformance" value="E" type="radio" tabindex="53">Excellent
+            <input name="optPerformance" value="G" type="radio" tabindex="55">Good
+            <input name="optPerformance" value="F" type="radio" tabindex="57">Fair
+            <input name="optPerformance" value="N" type="radio" tabindex="59">Not satisfactory
+        </P>
+    </fieldset>
+    <fieldset>
+        <legend>COURSE</legend>
+        <p>
+            <label for="optMaterials">6. How would you rate the course materials?</label>
+            <input id="optMaterials" name="optMaterials" value="E" type="radio" tabindex="61">Excellent
+            <input name="optMaterials" value="G" type="radio" tabindex="63">Good
+            <input name="optMaterials" value="F" type="radio" tabindex="65">Fair
+            <input name="optMaterials" value="N" type="radio" tabindex="67">Not satisfactory
+        </p>
+        <p>
+            <label for="optExpectations">7. How much did this course meet your expectations?</label>
+            <input id="optExpectations" name="optExpectations" value="E" type="radio" tabindex="69">Excellent
+            <input name="optExpectations" value="G" type="radio" tabindex="71">Good
+            <input name="optExpectations" value="F" type="radio" tabindex="73">Fair
+            <input name="optExpectations" value="N" type="radio" tabindex="75">Not satisfactory
+        </p>
+        <p>
+            <label for="optCourse">8. How would you rate this course (overall) ?</label>
+            <input id="optCourse" name="optCourse" value="E" type="radio" tabindex="77">Excellent
+            <input name="optCourse" value="G" type="radio" tabindex="79">Good
+            <input name="optCourse" value="F" type="radio" tabindex="81">Fair
+            <input name="optCourse" value="N" type="radio" tabindex="83">Not satisfactory
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>GENERAL INFORMATION</legend>
+        <P>
+            <label for="optOutline">9. Was the course outline reviewed/explained at the beginning of your course?</label>
+            <input id="optOutline" name="optOutline" value="Y" type="radio" tabindex="85">Yes
+            <input name="optOutline" value="N" type="radio" tabindex="87">No
+            <input name="optOutline" value="NS" type="radio" tabindex="89">Not Sure
+        </P>
+        <P>
+            <label for="optRecommend">10. Would you recommend this course to a friend with the same interests?</label>
+            <input id="optRecommend" name="optRecommend" value="Y" type="radio" tabindex="91">Yes
+            <input name="optRecommend" value="N" type="radio" tabindex="93">No
+            <input name="optRecommend" value="NS" type="radio" tabindex="95">Not Sure
+        </P>
+    </fieldset>
+    <fieldset>
+        <legend>ANY OTHER COMMENTS</legend>
+        <P>
+            <label for="txtBestThing">11. What is the best thing about this course?</label>
+            <input id="txtBestThing" name="txtBestThing" size="25" type="text" tabindex="97">
+        </P>
+        <P>
+            <label for="txtImprove">12. How could we improve this course?</label>
+            <input id="txtImprove" name="txtImprove" size="25" type="text" tabindex="99">
+        </P>
+        <p>
+            <label for="txtOther">Other:</label>
+            <textarea id="txtOther" name="txtOther" cols="105" rows="7" tabindex="101"
+            placeholder="--- Please enter your comment here ---"></textarea>
+        </p>
+    </fieldset>
+    <p>
+        <input name="btnSubmit" type="submit" value="Complete Evaluation" tabindex="103">
+        <input type="reset" name="btnReset" value="Clear Form" tabindex="105">
+    </p>
+    <h3>Thank you! We pay attention to your feedback!</h3>
+    <br><br>
+</form>
+</div>

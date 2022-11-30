@@ -1,1 +1,60 @@
-<app-base-page></app-base-page>
+<!-- <app-base-page></app-base-page> -->
+<div
+  class="container"
+  style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center"
+>
+  <form action="mailto:tguo4@my.centennialcollege.ca" method="post">
+    <fieldset>
+      <legend>Contact Us</legend>
+      <p>
+        <label for="txtFName">First name: </label>
+        <input
+          id="txtFName"
+          name="txtFName"
+          size="25"
+          type="text"
+          required="required"
+          tabindex="1"
+        />
+      </p>
+      <p>
+        <label for="txtLName">Last name: </label>
+        <input
+          id="txtLName"
+          name="txtLName"
+          size="25"
+          type="text"
+          required="required"
+          tabindex="3"
+        />
+      </p>
+      <p>
+        <label for="txtEmail">Email: </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+          id="txtEmail"
+          name="txtEmail"
+          size="25"
+          type="email"
+          required="required"
+          tabindex="5"
+        />
+      </p>
+      <p>
+        <label for="txtMessage">Message: </label>
+        <textarea
+          id="txtMessage"
+          name="txtMessage"
+          cols="30"
+          rows="7"
+          tabindex="7"
+          placeholder="-- Please leave your comments ---"
+        ></textarea>
+      </p>
+    </fieldset>
+    <p>
+      <input name="btnSubmit" type="submit" value="Submit" tabindex="9" />
+      <input type="reset" name="btnReset" value="Clear Form" tabindex="11" />
+    </p>
+    <a href="/">Back to Home Page</a>
+  </form>
+</div>

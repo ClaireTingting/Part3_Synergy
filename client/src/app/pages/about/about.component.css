@@ -1,0 +1,40 @@
+/* About Section */
+.about__section {
+    max-width: 120rem;
+  
+    margin: 0 auto;
+    padding: 9.6rem;
+  }
+  
+  .about__section--heading {
+    font-family: 'Bangers', cursive;
+    color: #37b24d;
+    letter-spacing: 5px;
+  
+    font-size: 8rem;
+    text-transform: uppercase;
+  }
+  
+  .about__section--description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about__section--description p {
+    width: 80rem;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    padding: 5rem 2rem;
+  }
+  
+  .devs {
+    display: flex;
+  }
+  
+  .devs img {
+    width: 5rem;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-left: -1rem;
+  }
