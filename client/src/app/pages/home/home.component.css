@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@600&display=swap");
+
+.section__home {
+  height: calc(100vh - 10vh);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  font-family: "Anek Devanagari", sans-serif;
+}
+
+.section__home-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.section__home-content h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(
+    235deg,
+    rgba(197, 48, 241, 1) 0%,
+    rgba(0, 90, 254, 1) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
